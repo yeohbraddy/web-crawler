@@ -14,6 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <https.protocols>TLSv1,TLSv1.1,TLSv1.2</https.protocols>
   </properties>
 
   <dependencies>
@@ -96,6 +97,9 @@
           <version>3.0.0</version>
           <configuration>
               <mainClass>demo.CrawlerApplication</mainClass>
+              <arguments>
+                <argument>${https.protocols}</argument>
+              </arguments>
           </configuration>
       </plugin>
       </plugins>

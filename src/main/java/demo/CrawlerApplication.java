@@ -3,6 +3,8 @@ package demo;
 import java.util.List;
 import java.util.logging.Logger;
 
+import demo.crawler.Crawler;
+
 public class CrawlerApplication {
 
   private static Logger logger = Logger.getLogger(CrawlerApplication.class.getCanonicalName());

@@ -1,10 +1,12 @@
-package demo;
+package demo.crawler;
 
 import java.util.concurrent.*;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.logging.Logger;
+
+import demo.response.CrawlerResponse;
 
 public class Crawler {
     private static Logger logger = Logger.getLogger(Crawler.class.getCanonicalName());

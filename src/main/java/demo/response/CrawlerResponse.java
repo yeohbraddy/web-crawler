@@ -1,4 +1,4 @@
-package demo;
+package demo.response;
 
 import lombok.Getter;
 import lombok.Builder;

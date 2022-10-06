@@ -1,4 +1,4 @@
-package demo;
+package demo.crawler;
 
 import lombok.Builder;
 
@@ -6,6 +6,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import demo.response.CrawlerResponse;
+import demo.util.CrawlerUtils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentSkipListSet;
